@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(8, 22, 27);
+    text-align: center;
+}
+
+h1{
+    color: white;
+    margin-top: 4rem;
+    /* margin: auto; */
+    text-align: center;
+}
+
+
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(8, 22, 27);
+    margin:auto;
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap:10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container button{
+    border-radius: 10px;
+    font-size: 3rem;
+    border: none;
+    height: 10px;
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: black;
+    
+}
+
+.resetBtn{
+    padding: 1rem 2rem;
+    background-color: rgb(70, 116, 119);
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    color :white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+}
